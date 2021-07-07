@@ -1,2 +1,6 @@
-a,b = gets.split.map(&:to_f)
-puts a * b /100
+C1,C2,C3 = gets.chomp.split('')
+if C1 == C2 && C2 == C3
+  puts "Won"
+else
+  puts "Lost"
+end
