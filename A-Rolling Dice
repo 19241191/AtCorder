@@ -1,0 +1,7 @@
+A, B = gets.split.map(&:to_i)
+ 
+if 6 * A < B || A > B
+  puts 'No'
+else
+  puts 'Yes'
+end
