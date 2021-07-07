@@ -1,0 +1,6 @@
+S = gets.split.map(to_i)
+if s(-1) == "T"
+ puts "Yes"
+else
+ puts "No"
+end
