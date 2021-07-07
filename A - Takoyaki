@@ -1,0 +1,7 @@
+n, x, t = gets.split.map(&:to_i)
+ans = (n / x) * t
+if n % x == 0
+  puts ans
+else
+  puts ans+t
+end
