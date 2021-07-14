@@ -1,0 +1,4 @@
+x=gets.to_i
+a=x/500
+b=x%500/5
+puts 1000*a+5*b
