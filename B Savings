@@ -1,0 +1,10 @@
+n = gets.to_i
+day = 0
+money = 0
+box = 0
+while box < n
+  money += 1
+  box += money
+  day += 1
+end 
+puts day
